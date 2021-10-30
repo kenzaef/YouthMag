@@ -1,0 +1,188 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+/*@font-face {
+    font-family: 'COCOGOOSE Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('COCOGOOSE Regular'), url('cocogoose_trial.woff') format('woff');
+    }
+*/
+
+body {
+    background-color:#181818 ;
+    
+  }
+
+  .header-navigation {
+    background: #3D3D3D;
+    padding-bottom: 20px;
+    font-family: 'Alegreya Sans', sans-serif;;
+     font-weight: lighter;
+}
+
+/*.header-navigation .search {
+    background: #181818;
+    padding: 10px 0 10px 15px;
+    border-radius: 20px;
+    width: 200px;
+    color: #fff; 
+}*/
+
+.header-navigation > img {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.navigationk-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+
+.navigation-k ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation-k li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.navigation-k li a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navigation-k li.active a {
+    color: #4e4fff;
+}
+
+
+.navigation-k li a:hover{
+    color: #4e4fff;
+}
+
+div input[type=text] {
+    display: flex;
+    float: left;
+    /*margin-top: 200px; */
+    background: #181818;
+    padding: 10px 0 10px 15px;
+    border-radius: 25px;
+    width: 200px;
+    color: #fff;
+}
+
+.goback {
+    padding-top: 20px;
+}
+
+.current {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+
+.goback_option {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.goback_option:hover {
+    color: #4e4fff;
+}
+
+p {
+    color: white;
+    font-size: 2vw;
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+     font-weight: lighter;
+}
+
+ul {
+    color: white;
+    font-size: 2vw;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+    text-align: center;
+}
+
+.steps {
+    text-align: left;
+    list-style-type: square;
+    padding: 30px;
+}
+
+h1 {
+    color: #4e4fff;
+    padding: 40px;
+    font-size: 3vw;
+    text-align: center;
+    font-family:'Alegreya Sans', sans-serif;
+}
+
+h3 {
+    color: #4e4fff;
+    padding: 40px;
+    font-size: 3vw;
+    font-family:'Alegreya Sans', sans-serif;
+}
+
+h5 {
+    color: #4e4fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+.background {
+    background-color: #4e4fff;
+}
+
+article {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.skincare {
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.skin {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.routine {
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+   max-width: 600px;
+}
+
+.alcohols {
+    padding: 40px;
+    display: block;
+    margin: 0 auto;
+   max-width: 600px;
+}
